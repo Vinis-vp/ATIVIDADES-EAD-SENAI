@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title> Inscrições Evento Tech 2024 </title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Inscrição</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Informações Pessoais.</h2> 
+            <p>Nome:<input type="text" name="nome" placeholder=""><br></p>
+            <p>Email:<input type="email" name="email" placeholder=""><br></p>
+            <p>Senha:<input type="password" name="senha" placeholder=""><br></p>
+            <p>Idade:<input type="number" name="idade" placeholder=""><br></p>
+            <p>Data de Nascimento:<input type="date" name="data"><br></p>
+        </section>
+        <section>
+            <h2>Preferências do Evento</h2>
+            <label for="tema"> Temas de Interesse</label>
+                <select for="tema" id="tema">
+                    <option value="Front-end">Front-End</option>
+                    <option value="Back-end">Back-end</option>
+                </select>
+            <p>Workshops:</p>
+            <p><input type="checkbox" name="checkbox"> Desenvolvimento Web Moderno<br></p>
+            <p><input type="checkbox" name="checkbox"> Introdução à Inteligência Artificial<br>
+            <p><input type="checkbox" name="checkbox"> Segurança na Internet<br></p>
+        </section>
+        <section>
+            <h2>Submissão de Apresentação</h2>
+            <p>Título:<input type="text" name="titulo" placeholder=""><br></p>
+            <label for="resumo"> Resumo:</label>
+            <textarea id="resumo" name="resumo" rows="10" cols="60"></textarea>
+            <p></p>
+            <label for="Apresentação">Anexar Apresentação(PDF):</label>
+            <input type="file" id="Apresentação" name="Apresentação" accept="PDF"/>    
+            <p><input type="submit" value="Enviar Inscrição"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Evento Tech. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
