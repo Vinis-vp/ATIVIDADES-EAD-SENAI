@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap'); 
+
+.jersey-25-regular 
+{font-family:"Jersey 25", sans-serif; 
+    font-weight: 400; 
+    font-style: normal; 
+}
+
+/* Reset básico para remover margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Jersey 25", sans-serif;
+    line-height: 1.6;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background: #00b0b3;
+    color: #0f0037;
+    padding: 20px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.introducao {
+    margin: 20px 0;
+    padding: 20px;
+    background: #dbdbdb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.links-uteis {
+    list-style: none;
+}
+
+.links-uteis li {
+    margin-bottom: 10px;
+}
+
+.links-uteis a:link, .links-uteis a:visited {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.links-uteis a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
