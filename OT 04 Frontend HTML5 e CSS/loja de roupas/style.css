@@ -9,7 +9,7 @@
 }
 .topnav{
 
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(56, 56, 56); !important;
     overflow: auto;
     display: flex;
     justify-content: space-between;
