@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fugaz+One&family=Lugrasimo&family=Protest+Strike&family=Sedan+SC&family=Shrikhand&display=swap');
+
+.portifolio{
+    
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 2px;
+    background-image: url(https://i.pinimg.com/originals/4f/b5/47/4fb547c27ef9b2d34c7ab46f1fd48d0d.jpg);
+    background-attachment: fixed;
+	background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.portifolio h1{
+
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.167);
+    width: 100%;
+
+}
+header nav{
+
+    text-align:justify;
+    background-color:#ffffffa2;
+    width: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+a {
+
+    color: black;
+}
+.portifolio h2{
+    align-items: center;
+    
+}
+.portifolio p{
+    margin-top: 10px;
+    margin: 0;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.conteudo{
+    padding: 50px;
+    margin-top: 10px;
+    background-color: #ffffffa2;
+    border-radius: 10px;
+}
+
+input, select, textarea{
+    background-color: rgba(0, 0, 0, 0.522);
+}
+
+button{
+    background-color: rgb(91, 143, 255);
+
+}
+
+
+.curriculo{
+    padding: 5px;
+    margin: 10px;
+}
