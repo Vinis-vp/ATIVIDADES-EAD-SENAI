@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+
+body{
+    background-color: #7ba05b !important;
+}
+
+.tamanhoCarrossel{
+    width: 55%;
+    margin-left: 22.5%;
+    margin-bottom: 5%;
+   
+}
+.tamanhoCarrossel p{
+    margin: 5%;
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight:400 ;
+    font-size:larger ;
+    font-style: normal;
+    color: #ffff;
+    text-align: center;
+}
+
+.aboutClub {
+    margin: 10%;
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight:400 ;
+    font-size:larger ;
+    font-style: normal;
+    color: #ffff;
+    text-align: center;
+
+}
+
+.formClub{
+    margin: 7% 30%;
+    color: #ffff;
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight:400 ;
+    font-size:larger ;
+    font-style: normal
+
+}
